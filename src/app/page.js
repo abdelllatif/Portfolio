@@ -328,7 +328,7 @@ export default function Home() {
     {
       title: "Plateforme E-Learning — Udemy",
       description:
-        "• Plateforme complète permettant aux étudiants de suivre des cours en ligne (vidéos, documents, etc.) et aux enseignants de publier et gérer leur contenu pédagogique. • Back-office d'administration pour gérer les utilisateurs, les cours et les statistiques. • Architecture MVC avec interface moderne et fonctionnalités AJAX pour une expérience utilisateur fluide.",
+        "• Plateforme complète permettant aux étudiants de suivre des cours en ligne (vidéos, documents, etc.) et aux enseignants de publier et gérer leur contenu pédagogique. • Back-office d&apos;administration pour gérer les utilisateurs, les cours et les statistiques. • Architecture MVC avec interface moderne et fonctionnalités AJAX pour une expérience utilisateur fluide.",
       image: "/project-elearning.png",
       tech: [
         "PHP",
@@ -347,7 +347,7 @@ export default function Home() {
     {
       title: "Projet Nostalgia — Plateforme d'enchères culturelles",
       description:
-        "• Plateforme d'enchères en ligne spécialisée dans la vente d'objets rares et historiques (œuvres d'art, manuscrits, pièces anciennes). • Système d'enchères sécurisé avec blog culturel interactif et paiement PayPal intégré. • Architecture robuste avec tâches planifiées (Cron Jobs) pour la gestion automatique des enchères.",
+        "• Plateforme d&apos;enchères en ligne spécialisée dans la vente d&apos;objets rares et historiques (œuvres d&apos;art, manuscrits, pièces anciennes). • Système d&apos;enchères sécurisé avec blog culturel interactif et paiement PayPal intégré. • Architecture robuste avec tâches planifiées (Cron Jobs) pour la gestion automatique des enchères.",
       image: "/project-nostalgia.png",
       tech: [
         "Laravel",
@@ -367,7 +367,7 @@ export default function Home() {
     {
       title: "Projet Tricol — Gestion des Bons de Commande",
       description:
-        "• API REST complète pour gérer les fournisseurs, produits, commandes et mouvements de stock avec valorisation automatique (coût moyen pondéré). • Suivi complet du cycle de vie des commandes avec documentation Swagger interactive. • Tests unitaires et d'intégration complets pour assurer la qualité et la fiabilité.",
+        "• API REST complète pour gérer les fournisseurs, produits, commandes et mouvements de stock avec valorisation automatique (coût moyen pondéré). • Suivi complet du cycle de vie des commandes avec documentation Swagger interactive. • Tests unitaires et d&apos;intégration complets pour assurer la qualité et la fiabilité.",
       image: "/project-tricol.png",
       tech: [
         "Spring Boot",
@@ -386,7 +386,7 @@ export default function Home() {
     {
       title: "Al Baraka Digital - Secure Banking Platform",
       description:
-        "• Plateforme bancaire digitale sécurisée pour gérer les opérations clients (dépôts, retraits, transferts) avec traçabilité et auditabilité complètes. • Système de validation automatique pour montants faibles et validation manuelle pour montants élevés. • Authentification stateless JWT avec contrôle d'accès basé sur les rôles (Client, Agent, Admin).",
+        "• Plateforme bancaire digitale sécurisée pour gérer les opérations clients (dépôts, retraits, transferts) avec traçabilité et auditabilité complètes. • Système de validation automatique pour montants faibles et validation manuelle pour montants élevés. • Authentification stateless JWT avec contrôle d&apos;accès basé sur les rôles (Client, Agent, Admin).",
       image: "/project-albaraka.png",
       tech: [
         "Spring Boot",
@@ -407,7 +407,7 @@ export default function Home() {
     {
       title: "SocialConnect - Réseau Social d'Entreprise",
       description:
-        "• Plateforme de réseau social d'entreprise avec authentification OAuth2, système de publications, commentaires et likes. • Intégration de paiements pour fonctionnalités premium et gestion des abonnements. • Architecture microservices avec API REST et interface moderne en React.",
+        "• Plateforme de réseau social d&apos;entreprise avec authentification OAuth2, système de publications, commentaires et likes. • Intégration de paiements pour fonctionnalités premium et gestion des abonnements. • Architecture microservices avec API REST et interface moderne en React.",
       image: "/project-socialconnect.png",
       tech: [
         "Laravel",
@@ -510,7 +510,7 @@ export default function Home() {
                   Développeur Web Full-Stack Passionné
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Diplômé de YouCode (UM6P) en développement web full-stack, je maîtrise les technologies modernes pour créer des applications web robustes et évolutives. Passionné par la résolution de problèmes et le code propre, j'explore actuellement l'IA agentique pour développer des systèmes intelligents et autonomes.
+                  Diplômé de YouCode (UM6P) en développement web full-stack, je maîtrise les technologies modernes pour créer des applications web robustes et évolutives. Passionné par la résolution de problèmes et le code propre, j&apos;explore actuellement l&apos;IA agentique pour développer des systèmes intelligents et autonomes.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Mon expertise couvre les frameworks frontend comme{" "}
