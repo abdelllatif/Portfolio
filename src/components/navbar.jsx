@@ -16,7 +16,7 @@ function Navbar({ className }) {
   return (
     <motion.div
       className={cn(
-        "fixed top-4 inset-x-0 max-w-6xl mx-auto z-50 dark",
+        "fixed top-4 inset-x-0 max-w-6xl mx-auto z-51 dark",
         className
       )}
       initial={{ opacity: 0, y: -100, scale: 0.9 }}
