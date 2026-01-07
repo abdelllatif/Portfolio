@@ -250,21 +250,9 @@ const ProjectCircularGallery = ({ projects, getTechIconAndColor }) => {
                           GitHub
                         </span>
                       </a>
-                      <a
-                        href={project.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 bg-gray-800/60 hover:bg-gray-700/60 rounded-lg border border-gray-700/40 hover:border-orange-500/40 transition-all duration-300 group/link"
-                        title="Live Demo"
-                      >
-                        <IconExternalLink
-                          size={16}
-                          className="text-gray-400 group-hover/link:text-orange-400 transition-colors"
-                        />
-                        <span className="text-gray-300 group-hover/link:text-white text-sm font-medium">
-                          Live Demo
-                        </span>
-                      </a>
+
+               
+               
                     </div>
                   </div>
                 </div>

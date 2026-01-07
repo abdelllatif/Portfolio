@@ -230,15 +230,7 @@ const ProjectCard = ({ project, getTechIconAndColor, onImageClick }) => {
                 <IconBrandGithub size={14} />
                 Code
               </a>
-              <a
-                href={project.live}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative z-10 flex items-center gap-1 rounded-xl bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 px-4 py-2 text-xs font-bold text-white transition-all duration-300"
-              >
-                <IconExternalLink size={14} />
-                Live Demo
-              </a>
+
             </div>
           </div>
         </motion.div>

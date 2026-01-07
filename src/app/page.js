@@ -103,12 +103,12 @@ export default function Home() {
   };
 
   const skills = [
-    { name: "Développement Frontend", icon: IconBrandReact, level: 90 },
-    { name: "Développement Backend", icon: IconServer, level: 85 },
-    { name: "Gestion de Base de Données", icon: IconDatabase, level: 80 },
+    { name: "Frontend Development", icon: IconBrandReact, level: 90 },
+    { name: "Backend Development", icon: IconServer, level: 85 },
+    { name: "Database Management", icon: IconDatabase, level: 80 },
     { name: "Java/Spring Framework", icon: IconCode, level: 88 },
     { name: "PHP/Laravel/Symfony", icon: IconCode, level: 85 },
-    { name: "APIs REST", icon: IconApi, level: 90 },
+    { name: "REST APIs", icon: IconApi, level: 90 },
   ];
 
   const skillLogos = [
@@ -326,7 +326,7 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Plateforme E-Learning — Udemy",
+      title: "E-Learning Platform — Udemy Clone",
       description:
         "• Plateforme complète permettant aux étudiants de suivre des cours en ligne (vidéos, documents, etc.) et aux enseignants de publier et gérer leur contenu pédagogique. • Back-office d&apos;administration pour gérer les utilisateurs, les cours et les statistiques. • Architecture MVC avec interface moderne et fonctionnalités AJAX pour une expérience utilisateur fluide.",
       image: "/project-elearning.png",
@@ -338,14 +338,13 @@ export default function Home() {
         "Tailwind CSS",
         "JavaScript",
         "AJAX",
-        "POO",
+        "OOP",
         "MVC"
       ],
-      github: "https://github.com/abdelllatif/elearning-platform",
-      live: "https://elearning-demo.vercel.app/",
+      github: "https://github.com/abdelllatif/Youdemy-.git",
     },
     {
-      title: "Projet Nostalgia — Plateforme d'enchères culturelles",
+      title: "Nostalgia Project — Cultural Auctions Platform",
       description:
         "• Plateforme d&apos;enchères en ligne spécialisée dans la vente d&apos;objets rares et historiques (œuvres d&apos;art, manuscrits, pièces anciennes). • Système d&apos;enchères sécurisé avec blog culturel interactif et paiement PayPal intégré. • Architecture robuste avec tâches planifiées (Cron Jobs) pour la gestion automatique des enchères.",
       image: "/project-nostalgia.png",
@@ -361,11 +360,10 @@ export default function Home() {
         "Cron Jobs",
         "PayPal API"
       ],
-      github: "https://github.com/abdelllatif/nostalgia-auctions",
-      live: "https://nostalgia-auctions.vercel.app/",
+      github: "https://github.com/abdelllatif/Nostalgia",
     },
     {
-      title: "Projet Tricol — Gestion des Bons de Commande",
+      title: "Tricol Project — Purchase Order Management",
       description:
         "• API REST complète pour gérer les fournisseurs, produits, commandes et mouvements de stock avec valorisation automatique (coût moyen pondéré). • Suivi complet du cycle de vie des commandes avec documentation Swagger interactive. • Tests unitaires et d&apos;intégration complets pour assurer la qualité et la fiabilité.",
       image: "/project-tricol.png",
@@ -380,8 +378,7 @@ export default function Home() {
         "Swagger",
         "REST API"
       ],
-      github: "https://github.com/abdelllatif/tricol-orders",
-      live: "https://tricol-orders.vercel.app/",
+      github: "https://github.com/abdelllatif/Tricol_Spring_Boot",
     },
     {
       title: "Al Baraka Digital - Secure Banking Platform",
@@ -401,11 +398,10 @@ export default function Home() {
         "JUnit",
         "Mockito"
       ],
-      github: "https://github.com/abdelllatif/albaraka-banking",
-      live: "https://albaraka-banking.vercel.app/",
+      github: "https://github.com/abdelllatif/Al-Baraka-Digital.git",
     },
     {
-      title: "SocialConnect - Réseau Social d'Entreprise",
+      title: "SocialConnect - Enterprise Social Network",
       description:
         "• Plateforme de réseau social d&apos;entreprise avec authentification OAuth2, système de publications, commentaires et likes. • Intégration de paiements pour fonctionnalités premium et gestion des abonnements. • Architecture microservices avec API REST et interface moderne en React.",
       image: "/project-socialconnect.png",
@@ -420,34 +416,33 @@ export default function Home() {
         "Stripe",
         "JWT"
       ],
-      github: "https://github.com/abdelllatif/social-connect",
-      live: "https://social-connect.vercel.app/",
+      github: "https://github.com/A-007481D/Vibe-Platform-3.0",
     },
   ];
 
   const education = [
     {
-      degree: "Développement Web Full Stack",
+      degree: "Full Stack Web Development",
       institution: "YouCode (UM6P)",
-      location: "Safi, Maroc",
+      location: "Safi, Morocco",
       period: "2024 – 2026",
-      grade: "Diplômé",
+      grade: "Graduated",
       icon: IconSchool,
       achievements: [
-        "Formation intensive en développement web full-stack.",
-        "Travail sur divers projets de développement logiciel.",
+        "Intensive training in full-stack web development.",
+        "Work on various software development projects.",
       ],
     },
     {
-      degree: "Baccalauréat en Sciences Physiques et Chimiques",
+      degree: "Baccalaureate in Physical and Chemical Sciences",
       institution: "Al-Muʿtamid ibn Abbad",
-      location: "Safi, Maroc",
+      location: "Safi, Morocco",
       period: "2022 – 2023",
-      grade: "Réussi",
+      grade: "Passed",
       icon: IconCertificate,
       achievements: [
-        "Spécialisation en Sciences Physiques et Chimiques.",
-        "Excellents résultats dans les matières scientifiques.",
+        "Specialization in Physical and Chemical Sciences.",
+        "Excellent results in scientific subjects.",
       ],
     },
   ];
@@ -507,28 +502,28 @@ export default function Home() {
                 className="space-y-4 sm:space-y-6"
               >
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white">
-                  Développeur Web Full-Stack Passionné
+                  Hey, I&apos;m Abdellatif
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Diplômé de YouCode (UM6P) en développement web full-stack, je maîtrise les technologies modernes pour créer des applications web robustes et évolutives. Passionné par la résolution de problèmes et le code propre, j&apos;explore actuellement l&apos;IA agentique pour développer des systèmes intelligents et autonomes.
+                  Graduated from YouCode (UM6P) in full-stack web development, I master modern technologies to create robust and scalable web applications. Passionate about problem-solving and clean code, I&apos;m currently exploring agentic AI to develop intelligent and autonomous systems.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Mon expertise couvre les frameworks frontend comme{" "}
-                  <strong className="text-white font-bold">React</strong> et{" "}
+                  My expertise covers frontend frameworks like{" "}
+                  <strong className="text-white font-bold">React</strong> and{" "}
                   <strong className="text-white font-bold">Angular</strong>,
-                  les technologies backend incluant{" "}
+                  backend technologies including{" "}
                   <strong className="text-white font-bold">Spring Boot</strong>,{" "}
-                  <strong className="text-white font-bold">Laravel</strong> et{" "}
+                  <strong className="text-white font-bold">Laravel</strong> and{" "}
                   <strong className="text-white font-bold">Symfony</strong>,
-                  ainsi que la gestion de bases de données avec{" "}
+                  as well as database management with{" "}
                   <strong className="text-white font-bold">MySQL</strong>,{" "}
-                  <strong className="text-white font-bold">PostgreSQL</strong> et{" "}
+                  <strong className="text-white font-bold">PostgreSQL</strong> and{" "}
                   <strong className="text-white font-bold">MongoDB</strong>.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="flex items-center gap-2 text-orange-400">
                     <IconMapPin size={20} />
-                    <span>Safi, Maroc</span>
+                    <span>Safi, Morocco</span>
                   </div>
                   <div className="flex items-center gap-2 text-orange-400">
                     <IconMail size={20} />
@@ -962,7 +957,7 @@ export default function Home() {
                       <div>
                         <p className="font-medium">Location</p>
                         <p className="text-orange-400">
-                          Safi, Maroc
+                          Safi, Morocco
                         </p>
                       </div>
                     </div>

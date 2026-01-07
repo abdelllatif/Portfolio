@@ -27,9 +27,9 @@ export const metadata = {
     siteName: "Portfolio Abdellatif Hissoune",
     images: [
       {
-        url: "/profile-icon.png",
-        width: 1200,
-        height: 630,
+        url: "/logo.png",
+        width: 2850,
+        height: 1245,
         alt: "Abdellatif Hissoune - Développeur Web Full-Stack",
       },
     ],
@@ -41,12 +41,12 @@ export const metadata = {
     title: "Abdellatif Hissoune - Développeur Web Full-Stack",
     description:
       "Développeur Web Full-Stack - Création de solutions numériques innovantes avec les technologies web modernes",
-    images: ["/profile-icon.png"],
+    images: ["/logo.png"],
   },
   icons: {
-    icon: "/profile-icon.png",
-    shortcut: "/profile-icon.png",
-    apple: "/profile-icon.png",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
   manifest: "/manifest.json",
 };
